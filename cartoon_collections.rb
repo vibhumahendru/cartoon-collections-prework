@@ -27,4 +27,5 @@ def find_the_cheese(array)
    x = 0
    elem == cheese_types[x]
    x+=1
+ end
 end
