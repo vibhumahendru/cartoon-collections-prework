@@ -28,7 +28,7 @@ def find_the_cheese(array)
    x = "cheddar"
  elseif array.include?("gouda")
    x = "gouda"
- elseif array.include?("camembert")
+ elsif array.include?("camembert")
    x = "camembert"
  else return nil
  end
