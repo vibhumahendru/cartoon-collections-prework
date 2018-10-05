@@ -6,8 +6,9 @@ array.each do |elem|
 end
 end
 def summon_captain_planet(array)
-  array.map! {|elem| elem.capitalize << "!"}
-  
+  array.map do |elem| 
+    elem.capitalize << "!"
+  end
 end
 
 def long_planeteer_calls# code an argument here
