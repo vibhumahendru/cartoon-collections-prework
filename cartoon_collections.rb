@@ -6,10 +6,8 @@ array.each do |elem|
 end
 end
 def summon_captain_planet(array)
-  array.each do |elem|
-   elem = elem.capitalize
-   elem = elem + "!"
-  
+  array.map do |elem, |
+
   end
 array
 end
