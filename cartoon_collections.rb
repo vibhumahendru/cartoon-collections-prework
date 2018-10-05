@@ -17,6 +17,7 @@ def long_planeteer_calls(array)
   if elem.length > 4
     flag = false
   end
+end
   flag
 end
 
